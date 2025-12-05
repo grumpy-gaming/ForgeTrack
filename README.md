@@ -1,39 +1,47 @@
 
 <img src="assets/images/logo.png" alt="Norrath Navigator Logo" width="480" align="center"> 
 
-🔨 ForgeTrack - HomeLab Inventory Tracker
-
 ForgeTrack is a simple, cloud-synchronized HomeLab and IT inventory management tool built using Angular and Google Firestore. It allows you to centrally track the hardware, configuration, and accounts for your personal servers, Raspberry Pis, and workstations in a clean, dark-themed interface.
 
 It is designed to provide a "single source of truth" for managing your complex home infrastructure.
 
-✨ Key Features
+✨ Key Features (Free Tier)
 
-Asset Management & Data Integrity (Free Tier)
+Data Entry & Validation
 
-Dark Theme UI: Professional, circuit-inspired dark aesthetic.
-
-Multi-OS Support: Track dual-boot and multi-boot systems via an Operating System list editor.
-
-Smart Data Entry: Use the System Info Parser feature to copy/paste system information dumps (e.g., Windows 'About' screen text) and automatically populate fields like CPU, RAM, and System Name.
-
-Component Detail: Dedicated fields for Device Model and detailed Component Specs.
+System Info Parser (BETA): Allows users to copy/paste system information dumps (e.g., Windows 'About' screen text) and automatically extracts and populates fields like CPU, RAM, and System Name.
 
 Validated Network Fields: Implements field-level validation for IP Address and MAC Address to ensure data quality.
 
-Custom Properties: Add unlimited, arbitrary key-value pairs to any system for unique metadata tracking (e.g., GPU Driver Version, RAID Level).
+Multi-OS Support: Track dual-boot and multi-boot systems via a dedicated Operating System list editor.
 
-Data Export: Export your entire inventory to organized JSON or CSV files for backup or external reporting.
+Custom Properties: Add unlimited, arbitrary key-value pairs (key/value) to any system for unique metadata tracking (e.g., GPU Driver Version, NAS Volume Size).
 
-Performance Auditing: Use the Performance History log to timestamp and save performance baseline observations (e.g., benchmark scores, temperature reports) over time.
+Management & Auditing
 
-Remote Access (Deep Access Tier)
+Dark Theme UI: Professional, circuit-inspired dark aesthetic.
 
-Remote Launchpad: Generates ready-to-use SSH and RDP connection commands based on saved account details and IP addresses.
+System Grouping: Use the Tags feature to organize and group devices (e.g., #docker-hosts, #gaming-rigs).
 
-Clickable Service Links: Directly links local service ports (e.g., Portainer, Pi-hole Web UI) for easy access.
+Performance History: Use the Snapshot button to timestamp and log performance baseline observations (e.g., benchmark scores, CPU load reports) over time.
 
-Deep Access (Future): This functionality is architected to utilize a self-hosted Raspberry Pi proxy server (or similar service) to enable secure, advanced features like file transfer and remote diagnostics.
+Data Export: Export your entire comprehensive inventory (including nested lists like Accounts and Custom Properties) to organized JSON or CSV files for backup and reporting.
+
+Security Guard: Requires Google Sign-in to ensure all data is tied to a secure, permanent user account, avoiding anonymous data loss.
+
+Remote Access Launchpad
+
+Remote Links: Generates copy-paste SSH and RDP connection commands based on saved account details and IP addresses.
+
+Clickable Services: Makes local service ports and URLs clickable for instant access to web consoles (e.g., Portainer, Pi-hole Web UI).
+
+💰 Deep Access (PRO Tier)
+
+ForgeTrack follows an Open Core / Freemium model. The core inventory functionality is open-source and free, while specialized features that require dedicated, managed network infrastructure are part of the paid "Deep Access" tier.
+
+Deep Access Features: Integration with a self-hosted RPi Proxy server to enable secure, advanced features like Remote File Browsing and Secure Diagnostics.
+
+Cost: A one-time $10 donation is requested to support the long-term maintenance of the project and necessary infrastructure (See MONETIZATION_PLAN.md).
 
 🚀 Getting Started
 
@@ -45,12 +53,8 @@ Frontend: Angular (with Signals)
 
 Styling: Tailwind CSS
 
-Database: Google Firestore (for real-time persistence)
+Database: Google Firestore (for secure, real-time persistence)
 
 🌐 Community and Development
 
 We encourage community contributions! Please check the ROADMAP.md for planned features.
-
-📝 License
-
-This project is licensed under the MIT License. See the LICENSE.md file for details.
