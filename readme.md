@@ -1,5 +1,5 @@
 
-assets/images/logo.png
+<img src="assets/images/logo.png" alt="Norrath Navigator Logo" width="480" align="center"> 
 
 🔨 ForgeTrack - HomeLab Inventory Tracker
 
