@@ -41,7 +41,7 @@ ForgeTrack follows an Open Core / Freemium model. The core inventory functionali
 
 Deep Access Features: Integration with a self-hosted RPi Proxy server to enable secure, advanced features like Remote File Browsing and Secure Diagnostics.
 
-Cost: A one-time $10 donation is requested to support the long-term maintenance of the project and necessary infrastructure (See MONETIZATION_PLAN.md).
+Cost: A one-time $10 donation is requested to support the long-term maintenance of the project and necessary infrastructure (See [MONETIZATION_PLAN](MONETIZATION_PLAN.md)).
 
 🚀 Getting Started
 
