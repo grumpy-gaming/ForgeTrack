@@ -1,3 +1,6 @@
+
+assets/images/logo.png
+
 🔨 ForgeTrack - HomeLab Inventory Tracker
 
 ForgeTrack is a simple, cloud-synchronized HomeLab and IT inventory management tool built using Angular and Google Firestore. It allows you to centrally track the hardware, configuration, and accounts for your personal servers, Raspberry Pis, and workstations in a clean, dark-themed interface.
